@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class Task4Test {
 
     final private static String PACKAGE = "jom.com.softserve.s6.task4.";
-/*
     @DisplayName("Check that Classes is present")
     @ParameterizedTest
     @MethodSource("listOfClasses")
@@ -65,7 +64,7 @@ public class Task4Test {
             String s = Files.readString(fileName);
             assertEquals(MyUtils.readFile(filename), expectedResult);
         } catch (IOException e) {
-            fail("File have not created " + e);
+                fail("File have not created " + e);
         }
     }
 
@@ -74,5 +73,6 @@ public class Task4Test {
                 Arguments.of("data2.txt", "Example of text\nfor test case #2"),
                 Arguments.of("data3.txt", "Example of\ntext for\ntest case #3"));
     }
-    */
+
+
 }
